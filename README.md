@@ -24,7 +24,8 @@ Think of it as:
 * 🚦 A Zero-Trust Proxy for Generative AI
 
 ---
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/90b2846a-34a0-405f-9cbb-3acf12f372b1" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d665d6e1-f81c-4da0-8e6a-8b9443fc8b29" />
+
 
 # Why AIVigilWal?
 
