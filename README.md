@@ -1,4 +1,4 @@
-# 🛡️ AIVigilWalWal
+# 🛡️ AIVigilWal
 
 
 <p align="center">
