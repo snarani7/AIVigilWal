@@ -1,4 +1,5 @@
-# 🛡️ AIVigil
+# 🛡️ AIVigilWalWal
+
 
 <p align="center">
   <h3 align="center">The AI Firewall for Every LLM</h3>
@@ -9,11 +10,11 @@
 
 ---
 
-## What is AIVigil?
+## What is AIVigilWal?
 
-**AIVigil** is an open-source AI security daemon that sits between your applications and any Large Language Model (LLM), inspecting every prompt and every response before they reach their destination.
+**AIVigilWal** is an open-source AI security daemon that sits between your applications and any Large Language Model (LLM), inspecting every prompt and every response before they reach their destination.
 
-Instead of allowing applications to communicate directly with an LLM, AIVigil acts as a **Zero-Trust AI Gateway**, applying security policies, guardrails, threat detection, and compliance checks in real time.
+Instead of allowing applications to communicate directly with an LLM, AIVigilWal acts as a **Zero-Trust AI Gateway**, applying security policies, guardrails, threat detection, and compliance checks in real time.
 
 Think of it as:
 
@@ -25,7 +26,7 @@ Think of it as:
 ---
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/90b2846a-34a0-405f-9cbb-3acf12f372b1" />
 
-# Why AIVigil?
+# Why AIVigilWal?
 
 Generative AI introduces new security challenges that traditional firewalls cannot detect.
 
@@ -44,7 +45,7 @@ Examples include:
 * Model Manipulation
 * Compliance Violations
 
-AIVigil inspects every request before it reaches your AI model.
+AIVigilWal inspects every request before it reaches your AI model.
 
 ---
 
@@ -55,7 +56,7 @@ AIVigil inspects every request before it reaches your AI model.
                         │
                         ▼
                 ┌─────────────────┐
-                │    AIVigil       │
+                │    AIVigilWal       │
                 │─────────────────│
                 │ Prompt Firewall │
                 │ Guardrails      │
@@ -158,7 +159,7 @@ Execute shell commands
 Display internal configuration
 ```
 
-AIVigil can:
+AIVigilWal can:
 
 * Block
 * Rewrite
@@ -236,9 +237,9 @@ Policy Violation
 
 ```bash
 docker run -d \
-  --name aivigil \
+  --name AIVigilWal \
   -p 8080:8080 \
-  aivigil/aivigil:latest
+  AIVigilWal/AIVigilWal:latest
 ```
 
 ---
@@ -246,7 +247,7 @@ docker run -d \
 ## Kubernetes
 
 ```bash
-helm install aivigil
+helm install AIVigilWal
 ```
 
 ---
@@ -254,14 +255,14 @@ helm install aivigil
 ## Linux
 
 ```bash
-sudo systemctl start aivigil
+sudo systemctl start AIVigilWal
 ```
 
 ---
 
 # Example Flow
 
-Without AIVigil
+Without AIVigilWal
 
 ```text
 Application
@@ -270,13 +271,13 @@ Application
     OpenAI
 ```
 
-With AIVigil
+With AIVigilWal
 
 ```text
 Application
       │
       ▼
-  AIVigil
+  AIVigilWal
       │
       ├── Prompt Inspection
       ├── Guardrails
@@ -331,7 +332,7 @@ Application
 
 ---
 
-# Why AIVigil?
+# Why AIVigilWal?
 
 ✅ Lightweight daemon
 
@@ -357,7 +358,7 @@ Our mission is simple:
 
 Every organization deploying AI should have the same level of protection they expect from a firewall, web application firewall, or API gateway.
 
-AIVigil brings that protection to Large Language Models.
+AIVigilWal brings that protection to Large Language Models.
 
 ---
 
@@ -382,7 +383,7 @@ MIT License
 
 <p align="center">
 
-### ⭐ If AIVigil helps you secure AI, please consider giving this repository a Star.
+### ⭐ If AIVigilWal helps you secure AI, please consider giving this repository a Star.
 
 **Protect Every Prompt. Trust Every Response.**
 
